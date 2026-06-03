@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: "/",
             disallow: "/private/",
         },
-        sitemap: "http://localhost:3000/sitemap.xml",
+        sitemap: "https://fetch-data-parallel-interception-qk.vercel.app/sitemap.xml",
     };
 }

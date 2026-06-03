@@ -3,19 +3,19 @@ import type { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
     return [
         {
-            url: "http://localhost:3000/dashboard",
+            url: "https://fetch-data-parallel-interception-qk.vercel.app/dashboard",
             lastModified: new Date(),
             changeFrequency: "monthly",
             priority: 1,
         },
         {
-            url: "http://localhost:3000/dashboard/products",
+            url: "https://fetch-data-parallel-interception-qk.vercel.app/dashboard/products",
             lastModified: new Date(),
             changeFrequency: "monthly",
             priority: 1,
         },
         {
-            url: "http://localhost:3000/products",
+            url: "https://fetch-data-parallel-interception-qk.vercel.app/products",
             lastModified: new Date(),
             changeFrequency: "monthly",
             priority: 1,

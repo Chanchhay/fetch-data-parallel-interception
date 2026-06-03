@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const title = product.name;
     const description = product.description;
     const image = product.thumbnail;
-    const url = `https://nextjs-datafetching-kmaz.vercel.app/dashboard/products/${id}`;
+    const url = `https://fetch-data-parallel-interception-qk.vercel.app/dashboard/products/${id}`;
 
     return {
         title,
