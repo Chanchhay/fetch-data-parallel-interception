@@ -1,9 +1,11 @@
 import ProductCardList from "@/components/dashboard/products/ProductCardList";
 import { getAllProducts } from "@/lib/products/fetch-products";
 import { Suspense } from "react";
+import Loading from "../loading";
 
 export default function Page() {
     const products = getAllProducts();
+    console.log(products);
 
     return (
         <main className="container mx-auto px-4 py-12 max-w-7xl">
@@ -16,7 +18,7 @@ export default function Page() {
                 </p>
             </header>
 
-            <Suspense fallback={<div className="text-gray-500">Loading products...</div>}>
+            <Suspense fallback={<Loading />}>
                 <ProductCardList products={products} />
             </Suspense>
         </main>

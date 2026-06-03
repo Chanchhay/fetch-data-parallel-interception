@@ -1,7 +1,9 @@
+import PageTest from "./PageTest";
+
 export default function Page() {
     return (
         <div>
-            <h1>default product page</h1>
+            <PageTest />
         </div>
     );
 }

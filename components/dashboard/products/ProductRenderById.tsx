@@ -13,7 +13,7 @@ export default function ProductRenderById({
         <div className="flex flex-col md:flex-row gap-8 w-full bg-white">
             <div className="relative w-full md:w-1/2 aspect-square bg-gray-50 rounded-2xl overflow-hidden border border-gray-100 shadow-inner">
                 <Image
-                    src={productDetail?.thumbnail ?? ""}
+                    src={productDetail?.thumbnail}
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover hover:scale-105 transition-transform duration-500"

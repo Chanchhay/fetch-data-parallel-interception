@@ -1,7 +1,7 @@
 export default function Page() {
     return (
         <div>
-            <h1>default product page</h1>
+            <h1 className="text-8xl">Dynamic page</h1>
         </div>
     );
 }

@@ -22,6 +22,9 @@ export default function Navbar() {
                                 <Link href="/products">Products</Link>
                             </li>
                             <li className="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
+                                <Link href="/dashboard">Dashboard</Link>
+                            </li>
+                            <li className="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
                                 <Link href="#">About</Link>
                             </li>
                             <li className="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
